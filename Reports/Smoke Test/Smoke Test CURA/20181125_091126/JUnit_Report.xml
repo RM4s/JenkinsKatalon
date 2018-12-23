@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test CURA" time="21" tests="2" failures="0" errors="0">
+   <testsuite name="Smoke Test CURA" tests="2" failures="0" errors="0" time="21" timestamp="2018-11-25 09:11:30" hostname="rmasmene - ALC-85L2MH2.usersad.everis.int" id="Test Suites/Smoke Test/Smoke Test CURA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rmasmene\\Katalon Studio\\CursoKatalon_Diciembre2018\\Reports\\Smoke Test\\Smoke Test CURA\\20181125_091126"/>
+         <property name="logFiles" value="C:\\Users\\rmasmene\\Katalon Studio\\CursoKatalon_Diciembre2018\\Reports\\Smoke Test\\Smoke Test CURA\\20181125_091126\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rmasmene - ALC-85L2MH2.usersad.everis.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.109.16.255"/>
+         <property name="sessionId" value="48609c948c127c3d78bb7fd57a84abb4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/demoUATKatalon/hacerLogin-Logout" classname="Test Cases/demoUATKatalon/hacerLogin-Logout" status="PASSED">
+         <system-out><![CDATA[2018-11-25 09:11:31 - [TEST_CASE][PASSED] - Test Cases/demoUATKatalon/hacerLogin-Logout: Test Cases/demoUATKatalon/hacerLogin-Logout
+
+2018-11-25 09:11:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 09:11:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 09:11:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:11:39 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:11:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:11:40 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:11:40 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:11:40 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:11:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:11:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-11-25 09:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-11-25 09:11:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+2018-11-25 09:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+2018-11-25 09:11:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+2018-11-25 09:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoUATKatalon/hacerLogin" classname="Test Cases/demoUATKatalon/hacerLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-25 09:11:42 - [TEST_CASE][PASSED] - Test Cases/demoUATKatalon/hacerLogin: Test Cases/demoUATKatalon/hacerLogin
+
+2018-11-25 09:11:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 09:11:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-25 09:11:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 09:11:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:11:49 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:11:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:11:49 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:11:49 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:11:49 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:11:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:11:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-11-25 09:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-25 09:11:30 - [TEST_SUITE][PASSED] - Smoke Test CURA: Test Cases/demoUATKatalon/hacerLogin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

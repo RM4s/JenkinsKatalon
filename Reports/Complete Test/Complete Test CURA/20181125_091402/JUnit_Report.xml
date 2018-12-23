@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Complete Test CURA" time="86" tests="8" failures="2" errors="0">
+   <testsuite name="Complete Test CURA" tests="8" failures="2" errors="0" time="86" timestamp="2018-11-25 09:14:05" hostname="rmasmene - ALC-85L2MH2.usersad.everis.int" id="Test Suites/Complete Test/Complete Test CURA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rmasmene\\Katalon Studio\\CursoKatalon_Diciembre2018\\Reports\\Complete Test\\Complete Test CURA\\20181125_091402"/>
+         <property name="logFiles" value="C:\\Users\\rmasmene\\Katalon Studio\\CursoKatalon_Diciembre2018\\Reports\\Complete Test\\Complete Test CURA\\20181125_091402\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rmasmene\\Katalon Studio\\CursoKatalon_Diciembre2018\\Reports\\Complete Test\\Complete Test CURA\\20181125_091402\\1543133656752.png, C:\\screenshot\\screenshot_20181125091424.png, C:\\screenshot\\screenshot_20181125091425.png, C:\\Users\\rmasmene\\Katalon Studio\\CursoKatalon_Diciembre2018\\Reports\\Complete Test\\Complete Test CURA\\20181125_091402\\1543133730498.png"/>
+         <property name="hostName" value="rmasmene - ALC-85L2MH2.usersad.everis.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.109.16.255"/>
+         <property name="sessionId" value="98ca4b2741f9121e555a5060c30a0320"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/demoUATKatalon/comprobarEmailDeEmpresa" classname="Test Cases/demoUATKatalon/comprobarEmailDeEmpresa" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_infokatalon.com' is visible (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541956189444.run(Script1541956189444.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543133642110.run(TempTestSuite1543133642110.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-25 09:14:06 - [TEST_CASE][FAILED] - Test Cases/demoUATKatalon/comprobarEmailDeEmpresa: Test Cases/demoUATKatalon/comprobarEmailDeEmpresa FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_infokatalon.com' is visible (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541956189444.run(Script1541956189444.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543133642110.run(TempTestSuite1543133642110.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-25 09:14:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 09:14:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 09:14:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:14:16 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:14:16 - [TEST_STEP][FAILED] - verifyElementVisible: Unable to verify object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_infokatalon.com' is visible (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+
+2018-11-25 09:14:17 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_infokatalon.com' is visible (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+[[ATTACHMENT|C:\\Users\\rmasmene\\Katalon Studio\\CursoKatalon_Diciembre2018\\Reports\\Complete Test\\Complete Test CURA\\20181125_091402\\1543133656752.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-25 09:14:06 - [TEST_CASE][FAILED] - Test Cases/demoUATKatalon/comprobarEmailDeEmpresa: Test Cases/demoUATKatalon/comprobarEmailDeEmpresa FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_infokatalon.com' is visible (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541956189444.run(Script1541956189444.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543133642110.run(TempTestSuite1543133642110.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoUATKatalon/comprobarLogin - keyWord TakeScreenshotTime" classname="Test Cases/demoUATKatalon/comprobarLogin - keyWord TakeScreenshotTime" status="PASSED">
+         <system-out><![CDATA[2018-11-25 09:14:17 - [TEST_CASE][PASSED] - Test Cases/demoUATKatalon/comprobarLogin - keyWord TakeScreenshotTime: Test Cases/demoUATKatalon/comprobarLogin - keyWord TakeScreenshotTime
+
+2018-11-25 09:14:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 09:14:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-25 09:14:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 09:14:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:14:24 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:14:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:14:24 - [TEST_STEP][PASSED] - com.UAT.util.ScreenshotTime.takeScreenshotDate: com.UAT.util.ScreenshotTime.takeScreenshotDate is PASSED
+
+2018-11-25 09:14:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\screenshot\\screenshot_20181125091424.png]]
+
+2018-11-25 09:14:25 - [MESSAGE][PASSED] - com.UAT.util.ScreenshotTime.takeScreenshotDate is PASSED
+
+2018-11-25 09:14:25 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:14:25 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:14:25 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:14:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:14:25 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clickable
+
+2018-11-25 09:14:25 - [MESSAGE][PASSED] - Object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clickable
+
+2018-11-25 09:14:25 - [TEST_STEP][PASSED] - com.UAT.util.ScreenshotTime.takeScreenshotDate: com.UAT.util.ScreenshotTime.takeScreenshotDate is PASSED
+
+2018-11-25 09:14:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\screenshot\\screenshot_20181125091425.png]]
+
+2018-11-25 09:14:26 - [MESSAGE][PASSED] - com.UAT.util.ScreenshotTime.takeScreenshotDate is PASSED
+
+2018-11-25 09:14:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-25 09:14:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoUATKatalon/comprobarLogin" classname="Test Cases/demoUATKatalon/comprobarLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-25 09:14:27 - [TEST_CASE][PASSED] - Test Cases/demoUATKatalon/comprobarLogin: Test Cases/demoUATKatalon/comprobarLogin
+
+2018-11-25 09:14:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 09:14:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 09:14:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:14:32 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:14:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:14:32 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:14:33 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:14:33 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:14:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:14:33 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clickable
+
+2018-11-25 09:14:33 - [MESSAGE][PASSED] - Object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clickable
+
+2018-11-25 09:14:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-25 09:14:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoUATKatalon/hacerLogin-Logout" classname="Test Cases/demoUATKatalon/hacerLogin-Logout" status="PASSED">
+         <system-out><![CDATA[2018-11-25 09:14:34 - [TEST_CASE][PASSED] - Test Cases/demoUATKatalon/hacerLogin-Logout: Test Cases/demoUATKatalon/hacerLogin-Logout
+
+2018-11-25 09:14:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 09:14:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 09:14:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:14:43 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:14:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:14:43 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:14:43 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:14:43 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:14:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:14:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-11-25 09:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-11-25 09:14:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+2018-11-25 09:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+2018-11-25 09:14:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+2018-11-25 09:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoUATKatalon/hacerLogin" classname="Test Cases/demoUATKatalon/hacerLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-25 09:14:45 - [TEST_CASE][PASSED] - Test Cases/demoUATKatalon/hacerLogin: Test Cases/demoUATKatalon/hacerLogin
+
+2018-11-25 09:14:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 09:14:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-25 09:14:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 09:14:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:14:51 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:14:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:14:52 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:14:52 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:14:52 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:14:52 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:14:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:14:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-11-25 09:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoUATKatalon/if-ElseStatement" classname="Test Cases/demoUATKatalon/if-ElseStatement" status="PASSED">
+         <system-out><![CDATA[2018-11-25 09:14:53 - [TEST_CASE][PASSED] - Test Cases/demoUATKatalon/if-ElseStatement: Test Cases/demoUATKatalon/if-ElseStatement
+
+2018-11-25 09:14:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/demoUATKatalon/hacerLogin' successfully
+
+2018-11-25 09:14:53 - [TEST_CASE][PASSED] - Test Cases/demoUATKatalon/hacerLogin: Test Cases/demoUATKatalon/hacerLogin
+
+2018-11-25 09:14:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 09:14:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-25 09:14:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 09:14:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:14:58 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:14:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:14:58 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:14:59 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:14:59 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:14:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:14:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-11-25 09:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-11-25 09:15:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/demoUATKatalon/hacerLogin' successfully
+
+2018-11-25 09:15:00 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Medicare_programs), 0)): Text 'Ha entrado en el if' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2018-11-25 09:15:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-25 09:15:00 - [MESSAGE][PASSED] - Object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Medicare_programs' is checked
+
+2018-11-25 09:15:00 - [TEST_STEP][PASSED] - check: Object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Medicaid_programs' is checked
+
+2018-11-25 09:15:00 - [MESSAGE][PASSED] - Object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Medicaid_programs' is checked
+
+2018-11-25 09:15:00 - [TEST_STEP][PASSED] - verifyElementNotChecked: Object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Medicare_programs' is not checked
+
+2018-11-25 09:15:00 - [MESSAGE][PASSED] - Object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Medicare_programs' is not checked
+
+2018-11-25 09:15:00 - [TEST_STEP][PASSED] - setText: Text 'Ha entrado en el if' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2018-11-25 09:15:00 - [MESSAGE][PASSED] - Text 'Ha entrado en el if' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/textarea_Comment_comment']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoUATKatalon/pedirCita - keyWord doLogin" classname="Test Cases/demoUATKatalon/pedirCita - keyWord doLogin" status="PASSED">
+         <system-out><![CDATA[2018-11-25 09:15:00 - [TEST_CASE][PASSED] - Test Cases/demoUATKatalon/pedirCita - keyWord doLogin: Test Cases/demoUATKatalon/pedirCita - keyWord doLogin
+
+2018-11-25 09:15:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 09:15:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-25 09:15:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 09:15:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:15:06 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:15:06 - [TEST_STEP][PASSED] - loginKeyword.doLogin.loginCURA: loginKeyword.doLogin.loginCURA is PASSED
+
+2018-11-25 09:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:15:07 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:15:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-11-25 09:15:07 - [MESSAGE][PASSED] - loginKeyword.doLogin.loginCURA is PASSED
+
+2018-11-25 09:15:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-11-25 09:15:08 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-11-25 09:15:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/span_Visit Date (Required)_gly' is clicked on
+
+2018-11-25 09:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/span_Visit Date (Required)_gly' is clicked on
+
+2018-11-25 09:15:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/td_28' is clicked on
+
+2018-11-25 09:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/td_28' is clicked on
+
+2018-11-25 09:15:08 - [TEST_STEP][PASSED] - setText: Text 'This is a Katalon Test' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2018-11-25 09:15:09 - [MESSAGE][PASSED] - Text 'This is a Katalon Test' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2018-11-25 09:15:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2018-11-25 09:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2018-11-25 09:15:09 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/h2_Appointment Confirmation' is visible
+
+2018-11-25 09:15:09 - [MESSAGE][PASSED] - Object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/h2_Appointment Confirmation' is visible
+
+2018-11-25 09:15:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-25 09:15:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoUATKatalon/pedirCita - keyWord randomName" classname="Test Cases/demoUATKatalon/pedirCita - keyWord randomName" status="PASSED">
+         <system-out><![CDATA[2018-11-25 09:15:10 - [TEST_CASE][PASSED] - Test Cases/demoUATKatalon/pedirCita - keyWord randomName: Test Cases/demoUATKatalon/pedirCita - keyWord randomName
+
+2018-11-25 09:15:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 09:15:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 09:15:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:15:15 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:15:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:15:15 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:15:15 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:15:15 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:15:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:15:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-11-25 09:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-11-25 09:15:16 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-11-25 09:15:17 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-11-25 09:15:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/span_Visit Date (Required)_gly' is clicked on
+
+2018-11-25 09:15:17 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/span_Visit Date (Required)_gly' is clicked on
+
+2018-11-25 09:15:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/td_28' is clicked on
+
+2018-11-25 09:15:17 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/td_28' is clicked on
+
+2018-11-25 09:15:17 - [TEST_STEP][PASSED] - Statement - randomName = CustomKeywords.TestDataGenerator.getRandomMaleName(): TestDataGenerator.getRandomMaleName is PASSED
+
+2018-11-25 09:15:17 - [MESSAGE][PASSED] - TestDataGenerator.getRandomMaleName is PASSED
+
+2018-11-25 09:15:17 - [TEST_STEP][PASSED] - setText: Text 'LoydChristensen' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2018-11-25 09:15:17 - [MESSAGE][PASSED] - Text 'LoydChristensen' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2018-11-25 09:15:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2018-11-25 09:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2018-11-25 09:15:18 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/h2_Appointment Confirmation' is visible
+
+2018-11-25 09:15:18 - [MESSAGE][PASSED] - Object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/h2_Appointment Confirmation' is visible
+
+2018-11-25 09:15:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-25 09:15:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoUATKatalon/pedirCita" classname="Test Cases/demoUATKatalon/pedirCita" status="PASSED">
+         <system-out><![CDATA[2018-11-25 09:15:19 - [TEST_CASE][PASSED] - Test Cases/demoUATKatalon/pedirCita: Test Cases/demoUATKatalon/pedirCita
+
+2018-11-25 09:15:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 09:15:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 09:15:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:15:23 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-25 09:15:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-11-25 09:15:24 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:15:24 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username'
+
+2018-11-25 09:15:24 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:15:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password'
+
+2018-11-25 09:15:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-11-25 09:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-11-25 09:15:25 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-11-25 09:15:25 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-11-25 09:15:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/span_Visit Date (Required)_gly' is clicked on
+
+2018-11-25 09:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/span_Visit Date (Required)_gly' is clicked on
+
+2018-11-25 09:15:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/td_28' is clicked on
+
+2018-11-25 09:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/td_28' is clicked on
+
+2018-11-25 09:15:26 - [TEST_STEP][PASSED] - setText: Text 'This is a Katalon Test' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2018-11-25 09:15:26 - [MESSAGE][PASSED] - Text 'This is a Katalon Test' is set on object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2018-11-25 09:15:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2018-11-25 09:15:27 - [MESSAGE][PASSED] - Object: 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2018-11-25 09:15:27 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/h2_Appointment Confirmation' is visible
+
+2018-11-25 09:15:27 - [MESSAGE][PASSED] - Object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/h2_Appointment Confirmation' is visible
+
+2018-11-25 09:15:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-25 09:15:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoUATKatalon/pedirCitaVariablesLocalesYglobales" classname="Test Cases/demoUATKatalon/pedirCitaVariablesLocalesYglobales" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'null' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:183)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1541956249992.run(Script1541956249992.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543133642110.run(TempTestSuite1543133642110.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-25 09:15:28 - [TEST_CASE][FAILED] - Test Cases/demoUATKatalon/pedirCitaVariablesLocalesYglobales: Test Cases/demoUATKatalon/pedirCitaVariablesLocalesYglobales FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'null' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:183)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1541956249992.run(Script1541956249992.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543133642110.run(TempTestSuite1543133642110.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-25 09:15:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 09:15:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 09:15:30 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'null' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+
+2018-11-25 09:15:30 - [MESSAGE][FAILED] - Unable to navigate to 'null' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+[[ATTACHMENT|C:\\Users\\rmasmene\\Katalon Studio\\CursoKatalon_Diciembre2018\\Reports\\Complete Test\\Complete Test CURA\\20181125_091402\\1543133730498.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-25 09:15:28 - [TEST_CASE][FAILED] - Test Cases/demoUATKatalon/pedirCitaVariablesLocalesYglobales: Test Cases/demoUATKatalon/pedirCitaVariablesLocalesYglobales FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'null' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:183)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1541956249992.run(Script1541956249992.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543133642110.run(TempTestSuite1543133642110.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-25 09:14:05 - [TEST_SUITE][FAILED] - Complete Test CURA: Test Cases/demoUATKatalon/comprobarEmailDeEmpresa FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_infokatalon.com' is visible (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541956189444.run(Script1541956189444.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543133642110.run(TempTestSuite1543133642110.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-25 09:14:05 - [TEST_SUITE][FAILED] - Complete Test CURA: Test Cases/demoUATKatalon/comprobarEmailDeEmpresa FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_infokatalon.com' is visible (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:358)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1541956189444.run(Script1541956189444.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543133642110.run(TempTestSuite1543133642110.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

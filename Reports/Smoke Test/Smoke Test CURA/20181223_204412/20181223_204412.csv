@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke Test CURA,Chrome 71.0.3578.98,,2018-12-23 20:44:15,2018-12-23 20:44:34,"18,915s",PASSED
+,,,,,,
+Test Cases/demoUATKatalon/hacerLogin-Logout,Chrome 71.0.3578.98,,2018-12-23 20:44:16,2018-12-23 20:44:26,"10,199s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-23 20:44:16,2018-12-23 20:44:21,"4,631s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.98,,2018-12-23 20:44:21,2018-12-23 20:44:24,"3,107s",PASSED
+"click(findTestObject(""Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 71.0.3578.98,,2018-12-23 20:44:24,2018-12-23 20:44:24,"0,526s",PASSED
+"setText(findTestObject(""Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 71.0.3578.98,,2018-12-23 20:44:24,2018-12-23 20:44:25,"0,231s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 71.0.3578.98,,2018-12-23 20:44:25,2018-12-23 20:44:25,"0,273s",PASSED
+"click(findTestObject(""Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login""))",Chrome 71.0.3578.98,,2018-12-23 20:44:25,2018-12-23 20:44:25,"0,426s",PASSED
+"click(findTestObject(""demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 71.0.3578.98,,2018-12-23 20:44:25,2018-12-23 20:44:25,"0,163s",PASSED
+"click(findTestObject(""demoUATKatalon/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Logout""))",Chrome 71.0.3578.98,,2018-12-23 20:44:25,2018-12-23 20:44:26,"0,396s",PASSED
+,,,,,,
+Test Cases/demoUATKatalon/hacerLogin,Chrome 71.0.3578.98,,2018-12-23 20:44:26,2018-12-23 20:44:33,"7,353s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-23 20:44:26,2018-12-23 20:44:29,"2,897s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.98,,2018-12-23 20:44:29,2018-12-23 20:44:32,"3,048s",PASSED
+"click(findTestObject(""Object Repository/demoUATKatalon/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 71.0.3578.98,,2018-12-23 20:44:32,2018-12-23 20:44:32,"0,374s",PASSED
+"setText(findTestObject(""Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 71.0.3578.98,,2018-12-23 20:44:32,2018-12-23 20:44:33,"0,164s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/demoUATKatalon/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 71.0.3578.98,,2018-12-23 20:44:33,2018-12-23 20:44:33,"0,169s",PASSED
+"click(findTestObject(""Object Repository/demoUATKatalon/Page_CURA Healthcare Service/button_Login""))",Chrome 71.0.3578.98,,2018-12-23 20:44:33,2018-12-23 20:44:33,"0,417s",PASSED

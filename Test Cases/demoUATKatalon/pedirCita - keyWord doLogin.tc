@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>pedirCita - keyWord doLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65956047-f9e1-4fbd-802e-1bbe3189d4cc</testCaseGuid>
+   <variable>
+      <defaultValue>'https://katalon-demo-cura.herokuapp.com/'</defaultValue>
+      <description></description>
+      <id>d6e62fc3-217e-4eca-bd0b-742163fb9546</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>00131a28-5b02-4d50-845a-85c725575af5</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="registerTDD" time="56" tests="6" failures="0" errors="0">
+   <testsuite name="registerTDD" tests="6" failures="0" errors="0" time="56" timestamp="2018-11-25 19:56:24" hostname="rmasmene - ALC-85L2MH2.usersad.everis.int" id="Test Suites/TDDNopComerce/registerTDD">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rmasmene\\Katalon Studio\\CursoKatalon_Diciembre2018\\Reports\\TDDNopComerce\\registerTDD\\20181125_195615"/>
+         <property name="logFiles" value="C:\\Users\\rmasmene\\Katalon Studio\\CursoKatalon_Diciembre2018\\Reports\\TDDNopComerce\\registerTDD\\20181125_195615\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rmasmene - ALC-85L2MH2.usersad.everis.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.99.1"/>
+         <property name="sessionId" value="7b8d4970057b6581da7abe080c4963f5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/nopCommerce/registroDDT" classname="Test Cases/nopCommerce/registroDDT" status="PASSED">
+         <system-out><![CDATA[2018-11-25 19:56:25 - [TEST_CASE][PASSED] - Test Cases/nopCommerce/registroDDT: Test Cases/nopCommerce/registroDDT
+
+2018-11-25 19:56:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 19:56:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 19:56:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demo.nopcommerce.com/register' successfully
+
+2018-11-25 19:56:35 - [MESSAGE][PASSED] - Navigate to 'http://demo.nopcommerce.com/register' successfully
+
+2018-11-25 19:56:35 - [TEST_STEP][PASSED] - setText: Text 'Daniel' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_First name_FirstName'
+
+2018-11-25 19:56:36 - [MESSAGE][PASSED] - Text 'Daniel' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_First name_FirstName'
+
+2018-11-25 19:56:36 - [TEST_STEP][PASSED] - setText: Text 'Brown' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Last name_LastName'
+
+2018-11-25 19:56:36 - [MESSAGE][PASSED] - Text 'Brown' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Last name_LastName'
+
+2018-11-25 19:56:36 - [TEST_STEP][PASSED] - setText: Text 'Daneilbrown@hip1.com' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/Page_nopCommerce demo store. Regist/input_Email_Email'
+
+2018-11-25 19:56:36 - [MESSAGE][PASSED] - Text 'Daneilbrown@hip1.com' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/Page_nopCommerce demo store. Regist/input_Email_Email'
+
+2018-11-25 19:56:36 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Password_Password'
+
+2018-11-25 19:56:36 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Password_Password'
+
+2018-11-25 19:56:36 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Confirm password_Confirm'
+
+2018-11-25 19:56:37 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Confirm password_Confirm'
+
+2018-11-25 19:56:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input__register-button' is clicked on
+
+2018-11-25 19:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input__register-button' is clicked on
+
+2018-11-25 19:56:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/div_Your registration complete' are matched.
+
+2018-11-25 19:56:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/div_Your registration complete' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nopCommerce/registroDDT" classname="Test Cases/nopCommerce/registroDDT" status="PASSED">
+         <system-out><![CDATA[2018-11-25 19:56:39 - [TEST_CASE][PASSED] - Test Cases/nopCommerce/registroDDT: Test Cases/nopCommerce/registroDDT
+
+2018-11-25 19:56:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 19:56:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-25 19:56:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 19:56:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demo.nopcommerce.com/register' successfully
+
+2018-11-25 19:56:45 - [MESSAGE][PASSED] - Navigate to 'http://demo.nopcommerce.com/register' successfully
+
+2018-11-25 19:56:45 - [TEST_STEP][PASSED] - setText: Text 'Chris' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_First name_FirstName'
+
+2018-11-25 19:56:45 - [MESSAGE][PASSED] - Text 'Chris' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_First name_FirstName'
+
+2018-11-25 19:56:45 - [TEST_STEP][PASSED] - setText: Text 'Norris' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Last name_LastName'
+
+2018-11-25 19:56:45 - [MESSAGE][PASSED] - Text 'Norris' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Last name_LastName'
+
+2018-11-25 19:56:45 - [TEST_STEP][PASSED] - setText: Text 'chborris@bolt.com' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/Page_nopCommerce demo store. Regist/input_Email_Email'
+
+2018-11-25 19:56:46 - [MESSAGE][PASSED] - Text 'chborris@bolt.com' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/Page_nopCommerce demo store. Regist/input_Email_Email'
+
+2018-11-25 19:56:46 - [TEST_STEP][PASSED] - setText: Text 'qwerty' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Password_Password'
+
+2018-11-25 19:56:46 - [MESSAGE][PASSED] - Text 'qwerty' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Password_Password'
+
+2018-11-25 19:56:46 - [TEST_STEP][PASSED] - setText: Text 'qwerty' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Confirm password_Confirm'
+
+2018-11-25 19:56:46 - [MESSAGE][PASSED] - Text 'qwerty' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Confirm password_Confirm'
+
+2018-11-25 19:56:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input__register-button' is clicked on
+
+2018-11-25 19:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input__register-button' is clicked on
+
+2018-11-25 19:56:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/div_Your registration complete' are matched.
+
+2018-11-25 19:56:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/div_Your registration complete' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nopCommerce/registroDDT" classname="Test Cases/nopCommerce/registroDDT" status="PASSED">
+         <system-out><![CDATA[2018-11-25 19:56:48 - [TEST_CASE][PASSED] - Test Cases/nopCommerce/registroDDT: Test Cases/nopCommerce/registroDDT
+
+2018-11-25 19:56:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 19:56:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-25 19:56:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 19:56:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demo.nopcommerce.com/register' successfully
+
+2018-11-25 19:56:53 - [MESSAGE][PASSED] - Navigate to 'http://demo.nopcommerce.com/register' successfully
+
+2018-11-25 19:56:53 - [TEST_STEP][PASSED] - setText: Text 'Patric' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_First name_FirstName'
+
+2018-11-25 19:56:53 - [MESSAGE][PASSED] - Text 'Patric' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_First name_FirstName'
+
+2018-11-25 19:56:53 - [TEST_STEP][PASSED] - setText: Text 'Sander' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Last name_LastName'
+
+2018-11-25 19:56:53 - [MESSAGE][PASSED] - Text 'Sander' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Last name_LastName'
+
+2018-11-25 19:56:53 - [TEST_STEP][PASSED] - setText: Text 'pss@youmm.co' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/Page_nopCommerce demo store. Regist/input_Email_Email'
+
+2018-11-25 19:56:54 - [MESSAGE][PASSED] - Text 'pss@youmm.co' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/Page_nopCommerce demo store. Regist/input_Email_Email'
+
+2018-11-25 19:56:54 - [TEST_STEP][PASSED] - setText: Text 'QAXwsc' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Password_Password'
+
+2018-11-25 19:56:54 - [MESSAGE][PASSED] - Text 'QAXwsc' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Password_Password'
+
+2018-11-25 19:56:54 - [TEST_STEP][PASSED] - setText: Text 'QAXwsc' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Confirm password_Confirm'
+
+2018-11-25 19:56:54 - [MESSAGE][PASSED] - Text 'QAXwsc' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Confirm password_Confirm'
+
+2018-11-25 19:56:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input__register-button' is clicked on
+
+2018-11-25 19:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input__register-button' is clicked on
+
+2018-11-25 19:56:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/div_Your registration complete' are matched.
+
+2018-11-25 19:56:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/div_Your registration complete' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nopCommerce/registroDDT" classname="Test Cases/nopCommerce/registroDDT" status="PASSED">
+         <system-out><![CDATA[2018-11-25 19:56:56 - [TEST_CASE][PASSED] - Test Cases/nopCommerce/registroDDT: Test Cases/nopCommerce/registroDDT
+
+2018-11-25 19:56:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 19:56:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-25 19:56:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 19:56:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demo.nopcommerce.com/register' successfully
+
+2018-11-25 19:57:01 - [MESSAGE][PASSED] - Navigate to 'http://demo.nopcommerce.com/register' successfully
+
+2018-11-25 19:57:01 - [TEST_STEP][PASSED] - setText: Text 'Peter' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_First name_FirstName'
+
+2018-11-25 19:57:01 - [MESSAGE][PASSED] - Text 'Peter' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_First name_FirstName'
+
+2018-11-25 19:57:01 - [TEST_STEP][PASSED] - setText: Text 'Down' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Last name_LastName'
+
+2018-11-25 19:57:01 - [MESSAGE][PASSED] - Text 'Down' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Last name_LastName'
+
+2018-11-25 19:57:01 - [TEST_STEP][PASSED] - setText: Text 'PDown@hi2p.com' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/Page_nopCommerce demo store. Regist/input_Email_Email'
+
+2018-11-25 19:57:01 - [MESSAGE][PASSED] - Text 'PDown@hi2p.com' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/Page_nopCommerce demo store. Regist/input_Email_Email'
+
+2018-11-25 19:57:01 - [TEST_STEP][PASSED] - setText: Text '12345678' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Password_Password'
+
+2018-11-25 19:57:01 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Password_Password'
+
+2018-11-25 19:57:01 - [TEST_STEP][PASSED] - setText: Text '12345678' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Confirm password_Confirm'
+
+2018-11-25 19:57:02 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Confirm password_Confirm'
+
+2018-11-25 19:57:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input__register-button' is clicked on
+
+2018-11-25 19:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input__register-button' is clicked on
+
+2018-11-25 19:57:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/div_Your registration complete' are matched.
+
+2018-11-25 19:57:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/div_Your registration complete' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nopCommerce/registroDDT" classname="Test Cases/nopCommerce/registroDDT" status="PASSED">
+         <system-out><![CDATA[2018-11-25 19:57:03 - [TEST_CASE][PASSED] - Test Cases/nopCommerce/registroDDT: Test Cases/nopCommerce/registroDDT
+
+2018-11-25 19:57:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 19:57:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-25 19:57:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 19:57:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demo.nopcommerce.com/register' successfully
+
+2018-11-25 19:57:08 - [MESSAGE][PASSED] - Navigate to 'http://demo.nopcommerce.com/register' successfully
+
+2018-11-25 19:57:08 - [TEST_STEP][PASSED] - setText: Text 'Mark' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_First name_FirstName'
+
+2018-11-25 19:57:08 - [MESSAGE][PASSED] - Text 'Mark' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_First name_FirstName'
+
+2018-11-25 19:57:08 - [TEST_STEP][PASSED] - setText: Text 'Stuart' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Last name_LastName'
+
+2018-11-25 19:57:09 - [MESSAGE][PASSED] - Text 'Stuart' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Last name_LastName'
+
+2018-11-25 19:57:09 - [TEST_STEP][PASSED] - setText: Text 'mstt@bolt.com' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/Page_nopCommerce demo store. Regist/input_Email_Email'
+
+2018-11-25 19:57:09 - [MESSAGE][PASSED] - Text 'mstt@bolt.com' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/Page_nopCommerce demo store. Regist/input_Email_Email'
+
+2018-11-25 19:57:09 - [TEST_STEP][PASSED] - setText: Text 'poiuyt' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Password_Password'
+
+2018-11-25 19:57:09 - [MESSAGE][PASSED] - Text 'poiuyt' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Password_Password'
+
+2018-11-25 19:57:09 - [TEST_STEP][PASSED] - setText: Text 'poiuyt' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Confirm password_Confirm'
+
+2018-11-25 19:57:09 - [MESSAGE][PASSED] - Text 'poiuyt' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Confirm password_Confirm'
+
+2018-11-25 19:57:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input__register-button' is clicked on
+
+2018-11-25 19:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input__register-button' is clicked on
+
+2018-11-25 19:57:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/div_Your registration complete' are matched.
+
+2018-11-25 19:57:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/div_Your registration complete' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nopCommerce/registroDDT" classname="Test Cases/nopCommerce/registroDDT" status="PASSED">
+         <system-out><![CDATA[2018-11-25 19:57:11 - [TEST_CASE][PASSED] - Test Cases/nopCommerce/registroDDT: Test Cases/nopCommerce/registroDDT
+
+2018-11-25 19:57:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-25 19:57:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-25 19:57:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-25 19:57:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demo.nopcommerce.com/register' successfully
+
+2018-11-25 19:57:17 - [MESSAGE][PASSED] - Navigate to 'http://demo.nopcommerce.com/register' successfully
+
+2018-11-25 19:57:17 - [TEST_STEP][PASSED] - setText: Text 'Jenn' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_First name_FirstName'
+
+2018-11-25 19:57:17 - [MESSAGE][PASSED] - Text 'Jenn' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_First name_FirstName'
+
+2018-11-25 19:57:17 - [TEST_STEP][PASSED] - setText: Text 'Louis' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Last name_LastName'
+
+2018-11-25 19:57:17 - [MESSAGE][PASSED] - Text 'Louis' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Last name_LastName'
+
+2018-11-25 19:57:17 - [TEST_STEP][PASSED] - setText: Text 'jenn@yomom.co' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/Page_nopCommerce demo store. Regist/input_Email_Email'
+
+2018-11-25 19:57:17 - [MESSAGE][PASSED] - Text 'jenn@yomom.co' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/Page_nopCommerce demo store. Regist/input_Email_Email'
+
+2018-11-25 19:57:17 - [TEST_STEP][PASSED] - setText: Text 'zxcvbnm' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Password_Password'
+
+2018-11-25 19:57:18 - [MESSAGE][PASSED] - Text 'zxcvbnm' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Password_Password'
+
+2018-11-25 19:57:18 - [TEST_STEP][PASSED] - setText: Text 'zxcvbnm' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Confirm password_Confirm'
+
+2018-11-25 19:57:18 - [MESSAGE][PASSED] - Text 'zxcvbnm' is set on object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input_Confirm password_Confirm'
+
+2018-11-25 19:57:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input__register-button' is clicked on
+
+2018-11-25 19:57:19 - [MESSAGE][PASSED] - Object: 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/input__register-button' is clicked on
+
+2018-11-25 19:57:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/div_Your registration complete' are matched.
+
+2018-11-25 19:57:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/nopCommerce/Page_nopCommerce demo store. Regist/div_Your registration complete' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-25 19:56:24 - [TEST_SUITE][PASSED] - registerTDD: Test Cases/nopCommerce/registroDDT]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
